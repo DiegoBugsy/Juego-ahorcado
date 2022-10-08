@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Juego del ahorcado</title>
+    <link rel="stylesheet" href="styles/general.css" />
+    <link rel="stylesheet" href="styles/estilos.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <img class="logo" src="img/logo-alura.png" alt="Logo de alura" />
+    <div class="caja-principal-1">
+      <button class="btn btn--iniciar">Iniciar Juego</button>
+      <button class="btn btn--agregar">Agregar nueva palabra</button>
+    </div>
+    <div class="caja-principal-2">
+      <input
+        type="text"
+        class="palabra-clave"
+        placeholder="Ingrese una palabra ..."
+      />
+      <div class="box-interaccion">
+        <div class="advertencia">
+          <ion-icon
+            class="advertencia-icon"
+            name="alert-circle-outline"
+          ></ion-icon>
+          <p class="advertencia-texto">Máx. de 8 letras</p>
+        </div>
+        <div class="box-btns">
+          <button class="btn btn2-3 btn--guardar">Guardar y empezar</button>
+          <button class="btn btn2-3 btn--cancelar">Cancelar</button>
+        </div>
+      </div>
+    </div>
+    <div class="caja-principal-3">
+      <p class="hidden msj--victoria">Felicidades, Ganaste el juego 🥳🎉!!</p>
+      <p class="hidden msj--derrota">Perdiste, Intentalo nuevamente😕!!</p>
+      <div class="box-lienzo">
+        <canvas class="lienzo" width="600" height="450"></canvas>
+      </div>
+
+      <div class="box-btns">
+        <button class="btn btn2-3 btn--Newjuego">Nuevo Juego</button>
+        <button class="btn btn2-3 btn--desistir">Desistir</button>
+      </div>
+    </div>
+  </body>
+  <script src="js/scriptPrincipal.js"></script>
+  <script
+    type="module"
+    src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+  ></script>
+  <script
+    nomodule
+    src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+  ></script>
+</html>

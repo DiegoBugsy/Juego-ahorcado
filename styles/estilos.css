@@ -1,0 +1,147 @@
+.caja-principal-1 {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  width: 24rem;
+  margin: 35rem auto;
+}
+/*************BOTONES DE LA SECCION 1********************/
+.btn--iniciar {
+  background-color: #0a3871;
+  color: #fff;
+}
+.btn--agregar {
+  background-color: #fff;
+  color: #000;
+}
+
+.btn {
+  padding: 1.8rem;
+}
+
+.btn--iniciar:hover,
+.btn--iniciar:active {
+  background-color: #052142;
+}
+.btn--agregar:hover,
+.btn--agregar:active {
+  background-color: rgb(136, 136, 136);
+  color: #fff;
+}
+
+/*************BOTONES DE LA SECCION 2********************/
+/****************************************/
+.caja-principal-2 {
+  display: flex;
+  flex-direction: column;
+}
+.palabra-clave {
+  width: 20rem;
+  height: 6rem;
+  padding: 1.8rem;
+  margin: 10rem auto;
+  font-family: inherit;
+  resize: none;
+  border: none;
+  background-color: #e5e5e5;
+  font-size: 1.6rem;
+}
+
+/****************ADVERTENCIA**********/
+.box-interaccion {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 39.113rem;
+  margin: 30rem auto;
+}
+.advertencia {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  align-self: flex-start;
+}
+.advertencia-icon {
+  font-size: 2rem;
+}
+.advertencia-texto {
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+/********ALERTAS**********************/
+
+.alerta--incorrecto {
+  color: #ce281f;
+}
+
+/*************BOTONES DE LA SECCION 3********************/
+.btn2-3 {
+  display: inline-block;
+  padding: 1.8rem 3.6rem;
+}
+.btn--Newjuego,
+.btn--guardar {
+  background-color: #0a3871;
+  color: #fff;
+}
+.btn--desistir,
+.btn--cancelar {
+  background-color: #b00a4f;
+  color: #fff;
+}
+.box-btns {
+  display: flex;
+  gap: 2rem;
+  width: 39.113rem;
+  margin: 0.6rem auto;
+  justify-content: center;
+}
+.caja-principal-3 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4rem;
+}
+.box-lienzo {
+  display: flex;
+  justify-content: center;
+  margin-top: 15rem;
+}
+.btn--Newjuego:hover,
+.btn--guardar:hover {
+  background-color: #052142;
+}
+.btn--desistir:hover,
+.btn--guardar:active {
+  background-color: #750835;
+  color: #fff;
+}
+
+/**********DESAPARECER CONTENEDOR**************/
+
+.hidden {
+  display: none;
+}
+
+/**********MENSAJE DE VICTORIA O DERROTA**************/
+
+.msj--victoria,
+.msj--derrota {
+  position: absolute;
+  font-size: 3.6rem;
+  margin-top: 1rem;
+  font-weight: 500;
+
+  padding: 2rem;
+  border-radius: 20px;
+}
+.msj--victoria {
+  color: #052142;
+  box-shadow: 5px 10px 10px #abb8f567;
+}
+.msj--derrota {
+  color: #c90738;
+  box-shadow: 5px 10px 10px #e650646e;
+}

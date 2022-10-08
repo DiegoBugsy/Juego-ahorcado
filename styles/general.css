@@ -1,0 +1,35 @@
+/* *************** GENERAL ***************** */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+*:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.8rem #0a3871bd;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  background-color: #e5e5e5;
+}
+
+.btn {
+  font-size: 1.8rem;
+  border-radius: 25px;
+  border: none;
+  text-align: center;
+  cursor: pointer;
+  box-shadow: 5px 5px 20px #e4e0e0bd;
+  text-decoration: none;
+  transition: all 0.6s;
+}
+
+/****************LOGO*****************/
+.logo {
+  margin-top: 3rem;
+  margin-left: 3rem;
+}
